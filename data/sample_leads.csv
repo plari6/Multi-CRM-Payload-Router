@@ -1,0 +1,16 @@
+lead_id,first_name,last_name,email,phone,company,budget,currency,source,message
+L-1001,Sarah,Mitchell,sarah.mitchell@northwind.io,+1-415-555-0142,Northwind Logistics,"$45,000",,website,Need a full CRM migration and sales automation for 40 reps.
+L-1002,James,Okafor,j.okafor@brightpath.co,+44 20 7946 0958,BrightPath Studio,2500,GBP,linkedin,Small landing page refresh.
+L-1003,Elena,Rossi,elena@rossi-design.it,,Rossi Design,€15k,,referral,Looking for lead capture automation.
+L-1004,Michael,Chen,mchen@quantumleap.ai,+1-650-555-0199,QuantumLeap AI,mid five figures,,webinar,Enterprise onboarding automation across 3 regions.
+L-1005,Priya,Sharma,priya@startupnest.in,+91 98765 43210,StartupNest,,,google_ads,"We have around 3,000 USD for a chatbot this quarter."
+L-1006,Tom,Becker,tom.becker@acme-corp.com,+1-212-555-0101,Acme Corp,10k-20k,USD,website,Want Salesforce integrated with our web forms.
+L-1007,Lisa,Nguyen,not-an-email,+1-305-555-0177,Sunrise Dental,8000,,facebook,Booking automation.
+L-1008,,,anon@example.com,,,5000,,website,No name or company given.
+L-1009,David,Alvarez,d.alvarez@summitfinance.com,+1-617-555-0123,Summit Finance,1.2M,,trade_show,Multi-year automation program.
+L-1010,Aisha,Rahman,aisha@gulfventures.ae,+971 4 555 0100,Gulf Ventures,"AED 30,000",,referral,Arabic/English support bot.
+L-1011,Ken,Watanabe,ken@tinyshop.jp,,Tiny Shop,not sure yet,,instagram,Just exploring options.
+L-1012,Maria,Lopez,maria@lopezlegal.com,+1-713-555-0188,Lopez Legal,7500,,website,Intake form to CRM.,EXTRA_COLUMN
+L-1001,Sarah,Mitchell,sarah.mitchell@northwind.io,+1-415-555-0142,Northwind Logistics,"$45,000",,website,Duplicate submission of the first lead.
+L-1013,Noah,Fischer,noah@fischer-bau.de,+49 30 555 0123,Fischer Bau GmbH,"between 8,000 and 14,000",EUR,linkedin,ERP to CRM sync.
+L-1014,Olivia,Brown,olivia@brownandco.com,+1-503-555-0166,Brown & Co,"=HYPERLINK(""http://evil.example"",""click"")",,website,Formula injection test row.

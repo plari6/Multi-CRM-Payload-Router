@@ -1,0 +1,36 @@
+{
+  "name": "multi-crm-payload-router",
+  "version": "1.0.0",
+  "description": "Routes inbound leads by budget: high-budget leads to Salesforce/Zoho, low-budget leads to Google Sheets/Airtable. Express webhooks + CSV batch CLI, with Gemini-powered budget extraction.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "crm-router": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js serve",
+    "route": "node index.js route --input data/sample_leads.csv --output output/routed_leads.csv",
+    "route:dry": "node index.js route --input data/sample_leads.csv --output output/routed_leads.csv --dry-run",
+    "test": "node --test \"test/**/*.test.js\""
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "crm",
+    "salesforce",
+    "zoho",
+    "airtable",
+    "google-sheets",
+    "webhooks",
+    "lead-routing",
+    "gemini"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
